@@ -8,7 +8,10 @@
 </head>
 <body>
     <header>
-        <h1>Soul Mate Shoes</h1>
+        <div class="logo-container">
+            <img src="logo.png" alt="Soul Mate Shoes Logo" class="logo">
+            <h1 class="business-name">Soul Mate Shoes</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -17,41 +20,30 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div class="header-right">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button class="account-button">Account</button>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h2>Step into Comfort</h2>
-            <p>Discover the perfect pair for every occasion.</p>
-            <a href="#" class="btn">Shop Now</a>
-        </section>
+    <div class="full-width-image">
+        <img src="hero.jpg" alt="Step into Comfort">
+    </div>
 
-        <section class="featured-products">
+    <main>
+        <section>
             <h2>Featured Products</h2>
-            <div class="product">
+            <div class="gallery-container">
                 <img src="shoe1.jpg" alt="Running Shoes">
-                <h3>Running Shoes</h3>
-                <p>$99.99</p>
-                <a href="#" class="btn">Buy Now</a>
-            </div>
-            <div class="product">
                 <img src="shoe2.jpg" alt="Casual Sneakers">
-                <h3>Casual Sneakers</h3>
-                <p>$79.99</p>
-                <a href="#" class="btn">Buy Now</a>
-            </div>
-            <div class="product">
                 <img src="shoe3.jpg" alt="Formal Shoes">
-                <h3>Formal Shoes</h3>
-                <p>$119.99</p>
-                <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Soul Mate Shoes. All rights reserved.</p>
-        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p><a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
     </footer>
 </body>
 </html>
