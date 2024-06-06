@@ -1,91 +1,193 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
+
+background-color: #333;
+
+color: white;
+
+padding: 1em 0;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+flex-wrap: wrap;
+
 }
 
-header h1 {
-    margin: 0;
+.logo-container {
+
+display: flex;
+
+align-items: center;
+
+margin-left: 1em;
+
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+.logo {
+
+width: 50px;
+
+height: 50px;
+
+margin-right: 1em;
+
 }
 
-header nav ul li {
-    margin: 0 1em;
+.business-name {
+
+font-size: 1.5em;
+
+margin: 0;
+
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
+nav ul {
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+
+text-align: center;
+
 }
 
-.hero {
-    background: #f8b400;
-    color: white;
-    padding: 2em 0;
-    text-align: center;
+nav ul li {
+
+display: inline;
+
+margin: 0 1em;
+
 }
 
-.hero .btn {
-    background: #333;
-    color: white;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
+nav ul li a {
+
+color: white;
+
+text-decoration: none;
+
+font-weight: bold;
+
 }
 
-.featured-products {
-    padding: 2em;
-    text-align: center;
+.header-right {
+
+display: flex;
+
+align-items: center;
+
+margin-right: 1em;
+
 }
 
-.product {
-    background: white;
-    padding: 1em;
-    margin: 1em;
-    display: inline-block;
-    text-align: center;
+.search-bar {
+
+padding: 0.5em;
+
+margin-right: 1em;
+
+border: none;
+
+border-radius: 4px;
+
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
+.account-button {
+
+background-color: #444;
+
+color: white;
+
+border: none;
+
+padding: 0.5em 1em;
+
+border-radius: 4px;
+
+cursor: pointer;
+
 }
 
-.product .btn {
-    background: #333;
-    color: white;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    display: block;
-    margin-top: 1em;
+.account-button:hover {
+
+background-color: #555;
+
+}
+
+.full-width-image {
+
+width: 100%;
+
+overflow: hidden;
+
+}
+
+.full-width-image img {
+
+width: 100%;
+
+height: auto;
+
+}
+
+main {
+
+padding: 2em;
+
+}
+
+section {
+
+margin-bottom: 2em;
+
+}
+
+.gallery-container {
+
+display: flex;
+
+justify-content: space-around;
+
+flex-wrap: wrap;
+
+}
+
+.gallery-container img {
+
+width: 30%;
+
+margin-bottom: 1em;
+
 }
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
 
-footer a {
-    color: white;
-    text-decoration: none;
-}
+background-color: #333;
 
+color: white;
+
+text-align: center;
+
+padding: 1em 0;
+
+position: fixed;
+
+width: 100%;
+
+bottom: 0;
+
+}
