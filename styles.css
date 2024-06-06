@@ -119,26 +119,97 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-footer {
+.testimonials {
+    padding: 2em 0;
+    background: #e9e9e9;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: white;
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview {
+    padding: 2em 0;
+    background: white;
+}
+
+.blog-preview h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    background: #f4f4f4;
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 30%;
+    border-radius: 5px;
+}
+
+.blog-post h3 {
+    margin: 0 0 0.5em;
+}
+
+.blog-post h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-post p {
+    color: #666;
+}
+
+.newsletter {
+    padding: 2em 0;
     background: #333;
     color: white;
     text-align: center;
-    padding: 0.5em 0; /* Reduced padding */
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    font-size: 0.8em; /* Reduced font size */
 }
 
-footer p {
-    margin: 0.2em 0;
+.newsletter h2 {
+    margin-bottom: 0.5em;
 }
 
-footer a {
+.newsletter p {
+    margin-bottom: 1em;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter .btn {
+    padding: 0.5em 2em;
+    background: #ff6347;
     color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
+    border:
