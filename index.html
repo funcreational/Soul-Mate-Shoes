@@ -1,70 +1,58 @@
+<link rel="stylesheet" href="main.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soul Mate Shoes</title>
+    <title>Basic Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <img src="logo.png" alt="Soul Mate Shoes Logo" class="logo">
-            <h1 class="business-name">Soul Mate Shoes</h1>
+            <img src="logo.png" alt="Business Logo" class="logo">
+            <h1 class="business-name">My Business</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="header-right">
-            <input type="text" class="search-bar" placeholder="Search...">
+            <input type="text" placeholder="Search..." class="search-bar">
             <button class="account-button">Account</button>
         </div>
     </header>
-
     <div class="full-width-image">
-        <img src="hero.jpg" alt="Step into Comfort">
+        <img src="full-width-image.jpg" alt="Full Width Image">
     </div>
-
     <main>
-        <section>
-            <h2>Featured Products</h2>
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a basic website with a menu, images, and a footer.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of web developers creating simple and elegant websites.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
             <div class="gallery-container">
-                <div class="product">
-                    <img src="shoe1.jpg" alt="Running Shoes">
-                    <h3>Running Shoes</h3>
-                    <p>$99.99</p>
-                    <a href="#" class="btn">Buy Now</a>
-                    <a href="#" class="btn">Details</a>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
-                <div class="product">
-                    <img src="shoe2.jpg" alt="Casual Sneakers">
-                    <h3>Casual Sneakers</h3>
-                    <p>$79.99</p>
-                    <a href="#" class="btn">Buy Now</a>
-                    <a href="#" class="btn">Details</a>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
-                <div class="product">
-                    <img src="shoe3.jpg" alt="Formal Shoes">
-                    <h3>Formal Shoes</h3>
-                    <p>$119.99</p>
-                    <a href="#" class="btn">Buy Now</a>
-                    <a href="#" class="btn">Details</a>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
             </div>
         </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@example.com</p>
+        </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Soul Mate Shoes. All rights reserved.</p>
-        <p><a href="#" style="color: white;">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+        <p>&copy; 2024 Basic Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
